@@ -4,18 +4,24 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Welcome to the Marine Biology Slots</title>
+  <title>Welcome to Marine Biology Slots</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap" rel="stylesheet">
   <link href="style.css" rel="stylesheet" type="text/css" />
   <script defer src="script.js"></script>
   <style>
+    div#result {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: clip;
+      }
 </style>
 </head>
 
 <body>
-  <header id="flamingText">Marine Biology Slots</header>
+  <header id="flamingText"><strong>Marine Biology Slots</strong></header>
+    <h1><div id="result"></div></h1>
     <div id="payline">
         <div class="slots">
           <div class="slot">
@@ -43,12 +49,11 @@
           </div>
         </div>
       </div>
-      
-        <div class="buttons">
-          <button id="spinner">Spin</button>
-          <button id="reseter">Play Again</button>
-        </div>
 
+      <div class="buttons">
+        <button id="spinner">Swim</button>
+        <button id="play-again">Dive Deeper</button>
+      </div>
         
     </div>
   

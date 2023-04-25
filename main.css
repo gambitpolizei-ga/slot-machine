@@ -16,7 +16,7 @@ body {
     background-size: cover;
   }
   
-header {
+  header {
     font-size: 8vmin;
     margin-top: 4vmin;
     color: rgb(59, 66, 102);
@@ -28,7 +28,6 @@ header {
     color: rgb(59, 66, 102);
     text-shadow: #9EC2FF 0 -1px 4px, #7B9FF2 0 -2px 10px, #4259C3 0 -10px 20px, #212AA5 0 -18px 40px;
   }
-  
   
   #payline {
     width: 100%;
@@ -45,19 +44,20 @@ header {
   
   .slot {
     background: rgb(57, 149, 172);
-    width: 100px;
-    height: 110px;
+    width: 130px;
+    height: 140px;
     overflow: hidden;
     border-radius: 5px;
     margin: 5px;
-    box-shadow: rgb(0, 0, 0) 5px 5px 10px 5px; 
+    box-shadow: black 5px 5px 10px 5px; 
   }
   
   .box {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 3rem;
+    font-size: 5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); 
   }
   
   .boxes {
@@ -67,16 +67,17 @@ header {
   button {
     cursor: pointer;
     border: 0.2vmin solid lightgrey;
-    background: #7B9FF2;
+    background: #809fe8;
+    color: rgb(48, 42, 63);
     border-radius: 0.5vmin;
     padding: 0.75vmin;
     font-size: 3vmin;
     font-family: 'Castoro Titling', cursive;
-    display: flex;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     justify-content: center;
     align-items: center;
     margin-top: 3vmin;
-    box-shadow: rgb(0, 0, 0) 5px 5px 10px 5px;
+    box-shadow: black 5px 5px 10px 5px;
   }
   
   button:hover {
@@ -86,6 +87,21 @@ header {
   }
   
   .buttons {
-    margin: 1rem 0 2rem 0;
+    margin-right: 15px;
+  }
+  
+  #result {
+    font-size: 4vmin;
+    letter-spacing: 1vmin;
+    font-family: 'Castoro Titling', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-25%, -25%);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
   }
   
