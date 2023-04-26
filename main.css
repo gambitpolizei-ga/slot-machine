@@ -1,10 +1,10 @@
 body {
     width: 100vw;
     height: 100vh;
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto Mono', monospace;
     margin-top: 4vmin;
+    margin: 3px;
+    padding: 3px;
+    font-family: 'Roboto Mono', monospace;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -36,6 +36,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
   }
   
   .slots {
@@ -43,16 +44,18 @@ body {
   }
   
   .slot {
-    background: rgb(57, 149, 172);
     width: 130px;
     height: 140px;
     overflow: hidden;
-    border-radius: 5px;
-    margin: 5px;
-    box-shadow: black 5px 5px 10px 5px; 
+    position: relative;
+    border-radius: 4px;
+    margin: 8px;
+    background: rgb(57, 149, 172);
+    box-shadow: black 5px 5px 10px 5px;
+    border: 1px lightgrey;
   }
   
-  .box {
+  .square {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,7 +63,7 @@ body {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); 
   }
   
-  .boxes {
+  .squares {
     transition: transform 1s ease-in-out;
   }
   
