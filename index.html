@@ -54,6 +54,14 @@
                 play.addEventListener("click", playMusic);
         </script>
         <button id="play-again">Dive Deeper</button>
+        <script>
+            let playSong = document.getElementById("play-again");
+                function playMusic() {
+                    let audio = new Audio("./assets/resetwave.wav");
+                    audio.play()
+                }
+                playSong.addEventListener("click", playMusic);
+        </script>
       </div>
     </div>
 </body>
