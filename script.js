@@ -77,7 +77,7 @@ function init(firstInit = true, groups = 1, duration = 1) { // The 'init' functi
 }
 
 async function spin() {
-  init(false, 1, 2); // Initializes the payline with the group of 'SYMBOLS' for a duration of 2 seconds
+  init(false, 1, 2, 3); // Initializes the payline with the group of 'SYMBOLS' for a duration of 3 seconds
   for(const slot of slots) { // Loops through each 'slot' element
     const squares = slot.querySelector('.squares');
     const duration = parseInt(squares.style.transitionDuration); // Gets the transition duration of the 'squares' element
@@ -111,7 +111,7 @@ function checkWin() { // Check if all 'SYMBOLS' on the 'slots' are the same
   }
 }
 
-function getWinner(message) { // Displays message in the 'result' element
+function getWinner(message) { // Displays message in the 'result' element after the player plays
   const result = document.querySelector('#result'); // Selects the result element
   setTimeout(() => { // Set the message to the 'result' element with a delay of 1.7 seconds
     result.textContent = message;
