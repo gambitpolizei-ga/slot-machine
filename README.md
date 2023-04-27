@@ -22,6 +22,9 @@ This game was created with a simple intention.  I wanted to have a clean design 
 * Github
 
 ## Getting Started
+The game is easy to navigate and play. Just click on the "Swim" button to spin the payline, which will then prompt a message at the top to indicate whether the player has won or not.  To play again click the "Dive Deeper" button to reset the slots, then click the "Swim" button. Enjoy!
+
+
 
 ## Next Steps
 Some of the enchancements I would like to add to the game are as follows:
