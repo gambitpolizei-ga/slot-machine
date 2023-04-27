@@ -7,13 +7,13 @@ This game was created with a simple intention.  I wanted to have a clean design 
 ## Screenshots
 
 ## Start of The Game
-![Start]("./assets/base screenshot.png")
+![Start](https://github.com/gambitpolizei-ga/slot-machine/blob/main/screenshots/base%20screenshot.png?raw=true)
 
 ## Game in Progress
-![inProgress]("./assets/motion screenshot.png")
+![inProgress](https://github.com/gambitpolizei-ga/slot-machine/blob/main/screenshots/motion%20screenshot.png?raw=true)
 
 ## Endgame
-![End]("./assets/ending screenshot.png")
+![End](https://github.com/gambitpolizei-ga/slot-machine/blob/main/screenshots/ending%20screenshot.png?raw=true)
 
 ## Technologies Used
 * HTML
