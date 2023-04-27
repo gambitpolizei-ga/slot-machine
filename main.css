@@ -9,7 +9,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(/assets/underwater-bg.jpg);
+    background-image: url("./assets/underwater-bg.jpg");
     background-repeat: no-repeat;
     background-position: 100%;
     background-attachment: fixed;
