@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
@@ -18,7 +17,6 @@
       }
 </style>
 </head>
-
 <body>
   <header id="flamingText"><strong>Marine Biology Slots</strong></header>
     <h1><div id="result"></div></h1>
@@ -47,14 +45,16 @@
       </div>
       <div class="buttons">
         <button id="spin-button">Swim</button>
+        <script>
+            let play = document.getElementById("spin-button");
+                function playMusic() {
+                    let audio = new Audio("./assets/slotroll.wav");
+                    audio.play()
+                }
+                play.addEventListener("click", playMusic);
+        </script>
         <button id="play-again">Dive Deeper</button>
       </div>
     </div>
-    <audio id="roll">
-        <source src="slot-roll.wav" type="audio/wav">
-    </audio>
-  
-
 </body>
-
 </html>

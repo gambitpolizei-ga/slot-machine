@@ -122,8 +122,3 @@ const playAgainButton = document.querySelector('#play-again');
   playAgainButton.addEventListener('click', () => {
   document.querySelector('#result').textContent = '';
 });
-
-function playRoll() {
-    const roll = document.getElementById("roll")
-    roll.play();
-}
